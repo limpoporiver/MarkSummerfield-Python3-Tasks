@@ -3,6 +3,7 @@ import sys
 import unicodedata
 
 word = None
+
 if len(sys.argv) > 1:
     if sys.argv[1] in ("-h", "--help"):
         print("usage:{0} [string]".format(sys.argv[0]))
